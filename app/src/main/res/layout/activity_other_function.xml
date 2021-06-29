@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/buttonUpdateCapk"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="@string/title_update_capk" />
+	
+    <Button
+        android:id="@+id/buttonUpdateAID"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="@string/title_update_aid" />
+
+    <Button
+        android:id="@+id/buttonUpdateTerminalParam"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="@string/title_update_term_param" />
+
+    <Button
+        android:id="@+id/buttonUpdateBlacklist"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="@string/title_update_black_list" />
+    
+    <Button
+        android:id="@+id/buttonUpdateRevoc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="@string/title_update_revoc" />    
+
+    <Button
+        android:id="@+id/buttonBatchUp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="@string/title_batch_up" />
+
+    <Button
+        android:id="@+id/buttonClearTransRecs"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:onClick="onClick_ClearTransRecs"
+        android:text="@string/title_clean_trans" />    
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:onClick="onClick_FunctionSetActivity"
+        android:text="@string/title_activity_function_set" />
+
+     <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:onClick="onClick_HostSet"
+        android:text="@string/title_host_set" />        
+
+</LinearLayout>

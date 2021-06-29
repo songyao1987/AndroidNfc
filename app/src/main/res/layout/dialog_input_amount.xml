@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<LinearLayout
+		android:orientation="horizontal" 
+		android:layout_width="fill_parent"
+		android:layout_height="50dp" 
+		android:layout_marginLeft="20dp"
+		android:layout_marginRight="20dp"
+		android:paddingTop="10dip">    
+		
+		<TextView
+			android:id="@+id/textViewAmount"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:paddingTop="6dip"
+			android:paddingRight="8dip"
+			android:text="@string/tv_enter_amount"
+			android:textSize="20sp" />    
+    </LinearLayout>
+    
+	<LinearLayout
+		android:orientation="horizontal" 
+		android:layout_width="fill_parent"
+		android:layout_height="60dp" 
+		android:layout_marginLeft="20dp"
+		android:layout_marginRight="20dp"
+		android:paddingTop="10dip">
+		
+
+	    
+		<EditText
+		    android:id="@+id/EditTextAmount"
+		    android:layout_width="fill_parent"
+		    android:layout_height="40dp"
+		    android:text ="1"
+	        android:maxLength="12"
+	        android:inputType="number"
+	        android:paddingTop="6dip"
+	        android:paddingRight="8dip"
+	        android:gravity="right"
+		    android:background="@drawable/bg_edittext_selector"/>
+	</LinearLayout>
+	
+	<LinearLayout
+	    android:id="@+id/LinearLayoutTextViewCashbackAmount"
+		android:orientation="horizontal" 
+		android:layout_width="fill_parent"
+		android:layout_height="50dp" 
+		android:layout_marginLeft="20dp"
+		android:layout_marginRight="20dp"
+		android:paddingTop="10dip">    
+		
+		<TextView
+			android:id="@+id/textViewCashbackAmount"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:paddingTop="6dip"
+			android:paddingRight="8dip"
+			android:text="@string/tv_cashback_amount"
+			android:textSize="20sp" />    
+    </LinearLayout>
+    
+	<LinearLayout
+	    android:id="@+id/LinearLayoutEditTextCashbackAmount"
+		android:orientation="horizontal" 
+		android:layout_width="fill_parent"
+		android:layout_height="60dp" 
+		android:layout_marginLeft="20dp"
+		android:layout_marginRight="20dp"
+		android:paddingTop="10dip">
+		
+		<EditText
+		    android:id="@+id/EditTextCashbackAmount"
+		    android:layout_width="fill_parent"
+		    android:layout_height="40dp"
+		    android:text ="0"
+	        android:maxLength="12"
+	        android:inputType="number"
+	        android:paddingTop="6dip"
+	        android:paddingRight="8dip"
+	        android:gravity="right"
+		    android:background="@drawable/bg_edittext_selector"/>
+	</LinearLayout>
+	
+
+</LinearLayout>

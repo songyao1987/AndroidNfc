@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<LinearLayout
+		android:orientation="horizontal" 
+		android:layout_width="fill_parent"
+		android:layout_height="60dp" 
+		android:layout_marginLeft="20dp"
+		android:layout_marginRight="20dp"
+		android:paddingTop="10dip">
+
+		<EditText
+		    android:id="@+id/EditTextPIN"
+		    android:layout_width="fill_parent"
+		    android:layout_height="40dp"
+	        android:maxLength="12"
+	        android:inputType="number"
+	        android:paddingTop="6dip"
+	        android:paddingLeft="8dip"		    
+		    android:password="true" 
+		    android:background="@drawable/bg_edittext_selector"/>
+
+	</LinearLayout>
+
+</LinearLayout>

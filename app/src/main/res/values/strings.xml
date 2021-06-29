@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+
+    <string name="app_name">CPoC Kernel Test</string>
+
+    
+    <string name="title_activity_emv_l2_test_main">CPoC Kernel Test</string>
+    <string name="title_trans">Transaction</string>
+    <string name="title_read_trans_log">Read Transaction Log</string>
+    <string name="title_activity_other_function">Other Function</string>
+    <string name="title_auto_test">Auto Test</string>
+    <string name="title_balance_query">Balance Query</string>
+    <string name="title_read_cardno">Read Bank Card Number</string>
+    <string name="title_exit">Exit</string>    
+    
+    <string name="title_update_capk">Update Capk</string>
+    <string name="title_update_aid">Update AID</string>
+    <string name="title_update_term_param">Update Terminal Parameter</string>
+    <string name="title_update_black_list">Update Black List</string>
+    <string name="title_update_revoc">Update Revocation List</string>
+    <string name="title_clean_trans">Clean Transaction</string>
+    <string name="title_batch_up">Batch Up</string>
+    <string name="title_activity_function_set">Function Settings</string>
+    <string name="title_host_set">Host Settings</string>
+    
+    <string name="title_show_debug_log">Show Debug Log</string>        
+    <string name="title_EMVKernelVersion">EMV Kernel Version</string> 
+    
+    <string name="tv_print">Print</string>  
+    <string name="tv_show_debug">Show Debug</string>  
+    <string name="tv_forced_online">Forced Online</string>  
+    <string name="tv_transaction_type">Trans. Type</string>  
+    <string name="tv_kernel_config">Kernel</string>  
+    <string name="tv_apdu_mode">APDU Mode</string>
+    <string name="tv_test_pinpad_style">PinPad Stytle</string> 
+    <string name="tv_test_host">Host</string>  
+
+    <string name="tv_goods">00-Goods and Services</string>   
+<!--     <string name="tv_services">01-Services</string>   -->
+    <string name="tv_cash">01-Cash</string>  
+    <string name="tv_cashback">09-Cashback</string>  
+    <string name="tv_inquiry">31-Inquiry</string>  
+    <string name="tv_transfer">40-Transfer</string>  
+    <string name="tv_payment">50-Payment</string>  
+    <string name="tv_administrative">66-Administrative</string>  
+    <string name="tv_cash_deposit">21-Cash Deposit</string>  
+    
+    <string name="tv_swipe_rf_card">Please tap card</string>
+    <string name="tv_insert_card">Please insert the IC card</string>
+    <string name="tv_swipe_mag_card">Please swipe the magnetic stripe card</string>
+    <string name="tv_insert_or_swipe_card">Please insert the IC card or swipe card</string>
+    
+    <string name="tv_enter_amount">ENTER AMOUNT</string>
+    <string name="tv_cashback_amount">ENTER CASHBACK AMOUNT</string>
+    <string name="tv_enter_pin">ENTER PIN</string>
+    <string name="tv_enter_offline_pin">ENTER OFFLINE PIN</string>
+    <string name="tv_amount_unit"></string>
+    
+    
+    <string name="tv_host_ip">Host IP</string>    
+    <string name="tv_host_port">Port&#160;&#160;&#160;</string>    
+    
+    <string name="ok">OK</string>    
+    <string name="cancel">Cancel</string> 
+    
+    <string name="trans_approved">Transaction Approved</string>
+    <string name="trans_declined">Transaction Declined</string>
+    <string name="trans_termination">Transaction Termination</string>
+
+    <string name= "trans_cancelled"> User Cancelled</string>
+    
+</resources>

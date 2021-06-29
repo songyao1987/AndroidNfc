@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="match_parent"
+	android:layout_height="match_parent" >
+
+	<LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="48dp"
+		    android:minHeight="48dip"
+		    android:orientation="horizontal" >
+
+			<LinearLayout
+			    android:layout_width="match_parent"
+			    android:layout_height="match_parent"
+			    android:layout_weight="1"
+			    android:minHeight="48dip"
+			    android:orientation="vertical" >
+
+				<TextView
+				    
+				    android:layout_width="match_parent"
+				    android:layout_height="48dp"
+				    android:layout_gravity="center_vertical"
+				    android:minHeight="48dip"
+				    android:paddingTop="15dp"
+				    android:text="@string/tv_print"
+				    android:textAppearance="?android:attr/textAppearance" />
+
+			</LinearLayout>
+
+			<LinearLayout
+			    android:layout_width="match_parent"
+			    android:layout_height="match_parent"
+			    android:layout_weight="1"
+			    android:orientation="vertical" >
+				
+			<Switch
+	        android:id="@+id/SwitchPrint"
+			    android:layout_width="match_parent"
+			    android:layout_height="match_parent"
+		        android:textOn ="                 "  
+		        android:textOff="                 " 
+	        />
+				
+			</LinearLayout>
+	</LinearLayout>
+		
+	<LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="48dp"
+		    android:minHeight="48dip"
+		    android:orientation="horizontal" >
+
+			<LinearLayout
+			    android:layout_width="match_parent"
+			    android:layout_height="match_parent"
+			    android:layout_weight="1"
+			    android:minHeight="48dip"
+			    android:orientation="vertical" >
+
+				<TextView
+				    
+				    android:layout_width="match_parent"
+				    android:layout_height="48dp"
+				    android:layout_gravity="center_vertical"
+				    android:minHeight="48dip"
+				    android:paddingTop="15dp"
+				    android:text="@string/tv_show_debug"
+				    android:textAppearance="?android:attr/textAppearance" />
+
+			</LinearLayout>
+
+			<LinearLayout
+			    android:layout_width="match_parent"
+			    android:layout_height="match_parent"
+			    android:layout_weight="1"
+			    android:orientation="vertical" >
+				
+			<Switch
+	        	android:id="@+id/SwitchDebug"
+			    android:layout_width="match_parent"
+			    android:layout_height="match_parent"
+		        android:textOn ="                 "  
+		        android:textOff="                 " 
+	        />
+				
+			</LinearLayout>
+	</LinearLayout> 
+	
+	<LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="48dp"
+		    android:minHeight="48dip"
+		    android:orientation="horizontal" >
+
+			<LinearLayout
+			    android:layout_width="match_parent"
+			    android:layout_height="match_parent"
+			    android:layout_weight="1"
+			    android:minHeight="48dip"
+			    android:orientation="vertical" >
+
+				<TextView
+				    
+				    android:layout_width="match_parent"
+				    android:layout_height="48dp"
+				    android:layout_gravity="center_vertical"
+				    android:minHeight="48dip"
+				    android:paddingTop="15dp"
+				    android:text="@string/tv_forced_online"
+				    android:textAppearance="?android:attr/textAppearance" />
+
+			</LinearLayout>
+
+			<LinearLayout
+			    android:layout_width="match_parent"
+			    android:layout_height="match_parent"
+			    android:layout_weight="1"
+			    android:orientation="vertical" >
+				
+			<Switch
+	        	android:id="@+id/SwitchForcedOnline"
+			    android:layout_width="match_parent"
+			    android:layout_height="match_parent"
+		        android:textOn ="                 "  
+		        android:textOff="                 " 
+	        />
+				
+			</LinearLayout>
+	</LinearLayout> 	
+    
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" >
+
+	    
+	    
+		<LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="48dp"
+		    android:minHeight="48dip"
+		    android:orientation="horizontal" >
+
+			<LinearLayout
+			    android:layout_width="match_parent"
+			    android:layout_height="match_parent"
+			    android:layout_weight="1"
+			    android:minHeight="48dip"
+			    android:orientation="vertical" >
+
+				<TextView
+				    android:id="@+id/textview01"
+				    android:layout_width="match_parent"
+				    android:layout_height="48dp"
+				    android:layout_gravity="center_vertical"
+				    android:minHeight="48dip"
+				    android:paddingTop="15dp"
+				    android:text="@string/tv_transaction_type"
+				    android:textAppearance="?android:attr/textAppearance" />
+
+			</LinearLayout>
+
+			<LinearLayout
+			    android:layout_width="match_parent"
+			    android:layout_height="match_parent"
+			    android:layout_weight="1"
+			    android:gravity="right|bottom"
+			    android:minHeight="48dip"
+			    android:orientation="vertical" >
+				
+				<Spinner
+				    android:id="@+id/spinnerTransType"
+				    android:layout_width="match_parent"
+				    android:layout_height="48dp"
+				    android:minHeight="48dip" />
+				
+			</LinearLayout>
+		</LinearLayout>
+
+		<LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="48dp"
+		    android:gravity="center"
+		    android:minHeight="48dip"
+		    android:orientation="vertical" 
+		    android:visibility="gone">
+
+			<Switch
+			    android:id="@+id/switch01"
+			    android:layout_width="match_parent"
+			    android:layout_height="48dp"
+			    android:layout_gravity="center_vertical"
+			    android:minHeight="48dip"
+			    android:text="帐户类型:" />
+
+		</LinearLayout>
+
+		<LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="48dp"
+		    android:minHeight="48dip"
+		    android:orientation="horizontal" 
+		    android:visibility="gone">
+
+			<LinearLayout
+			    android:layout_width="match_parent"
+			    android:layout_height="match_parent"
+			    android:layout_weight="1"
+			    android:gravity="left|bottom"
+			    android:minHeight="48dip"
+			    android:orientation="vertical" >
+
+				<TextView
+				    android:id="@+id/TextView02"
+				    android:layout_width="match_parent"
+				    android:layout_height="48dp"
+				    android:layout_gravity="center_vertical"
+				    android:minHeight="48dip"
+				    android:paddingTop="15dp"
+				    android:password="false"
+				    android:text="数据采集:"
+				    android:textAppearance="?android:attr/textAppearance" />
+
+			</LinearLayout>
+
+			<LinearLayout
+			    android:layout_width="match_parent"
+			    android:layout_height="match_parent"
+			    android:layout_weight="1"
+			    android:gravity="right|bottom"
+			    android:minHeight="48dip"
+			    android:orientation="vertical" >
+
+				<Spinner
+				    android:id="@+id/spinner02"
+				    android:layout_width="match_parent"
+				    android:layout_height="48dp"
+				    android:minHeight="48dip" />
+
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+
+	<LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="48dp"
+		    android:minHeight="48dip"
+		    android:orientation="horizontal" >
+
+			<LinearLayout
+			    android:layout_width="match_parent"
+			    android:layout_height="match_parent"
+			    android:layout_weight="1"
+			    android:minHeight="48dip"
+			    android:orientation="vertical" >
+
+				<TextView
+				    android:id="@+id/textview03"
+				    android:layout_width="match_parent"
+				    android:layout_height="48dp"
+				    android:layout_gravity="center_vertical"
+				    android:minHeight="48dip"
+				    android:paddingTop="15dp"
+				    android:text="@string/tv_kernel_config"
+				    android:textAppearance="?android:attr/textAppearance" />
+
+			</LinearLayout>
+
+			<LinearLayout
+			    android:layout_width="match_parent"
+			    android:layout_height="match_parent"
+			    android:layout_weight="1"
+			    android:gravity="right|bottom"
+			    android:minHeight="48dip"
+			    android:orientation="vertical" >
+				
+				<Spinner
+				    android:id="@+id/spinnerKernelConfig"
+				    android:layout_width="match_parent"
+				    android:layout_height="48dp"
+				    android:minHeight="48dip" />
+				
+			</LinearLayout>
+	</LinearLayout>
+	
+	<LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="48dp"
+		    android:minHeight="48dip"
+		    android:orientation="horizontal" >
+
+			<LinearLayout
+			    android:layout_width="match_parent"
+			    android:layout_height="match_parent"
+			    android:layout_weight="1"
+			    android:minHeight="48dip"
+			    android:orientation="vertical" >
+
+				<TextView
+				    android:layout_width="match_parent"
+				    android:layout_height="48dp"
+				    android:layout_gravity="center_vertical"
+				    android:minHeight="48dip"
+				    android:paddingTop="15dp"
+				    android:text="@string/tv_apdu_mode"
+				    android:textAppearance="?android:attr/textAppearance" />
+
+			</LinearLayout>
+
+			<LinearLayout
+			    android:layout_width="match_parent"
+			    android:layout_height="match_parent"
+			    android:layout_weight="1"
+			    android:gravity="right|bottom"
+			    android:minHeight="48dip"
+			    android:orientation="vertical" >
+				
+				<Spinner
+				    android:id="@+id/spinnerApduMode"
+				    android:layout_width="match_parent"
+				    android:layout_height="48dp"
+				    android:minHeight="48dip" />
+				
+			</LinearLayout>
+	</LinearLayout>	 	 
+
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="48dp"
+	    android:minHeight="48dip"
+	    android:orientation="horizontal" >
+
+		<LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:layout_weight="1"
+		    android:minHeight="48dip"
+		    android:orientation="vertical" >
+
+			<TextView
+			    android:id="@+id/textviewPinPadStyle"
+			    android:layout_width="match_parent"
+			    android:layout_height="48dp"
+			    android:layout_gravity="center_vertical"
+			    android:minHeight="48dip"
+			    android:paddingTop="15dp"
+			    android:text="@string/tv_test_pinpad_style"
+			    android:textAppearance="?android:attr/textAppearance" />
+
+		</LinearLayout>
+
+		<LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:layout_weight="1"
+		    android:gravity="right|bottom"
+		    android:minHeight="48dip"
+		    android:orientation="vertical" >
+			
+			<Spinner
+			    android:id="@+id/spinnerPinPadStyle"
+			    android:layout_width="match_parent"
+			    android:layout_height="48dp"
+			    android:minHeight="48dip" />
+			
+		</LinearLayout>
+	</LinearLayout>			
+	
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="48dp"
+	    android:minHeight="48dip"
+	    android:orientation="horizontal" >
+
+		<LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:layout_weight="1"
+		    android:minHeight="48dip"
+		    android:orientation="vertical" >
+
+			<TextView
+			    android:id="@+id/textviewHost"
+			    android:layout_width="match_parent"
+			    android:layout_height="48dp"
+			    android:layout_gravity="center_vertical"
+			    android:minHeight="48dip"
+			    android:paddingTop="15dp"
+			    android:text="@string/tv_test_host"
+			    android:textAppearance="?android:attr/textAppearance" />
+
+		</LinearLayout>
+
+		<LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:layout_weight="1"
+		    android:gravity="right|bottom"
+		    android:minHeight="48dip"
+		    android:orientation="vertical" >
+			
+			<Spinner
+			    android:id="@+id/spinnerHost"
+			    android:layout_width="match_parent"
+			    android:layout_height="48dp"
+			    android:minHeight="48dip" />
+			
+		</LinearLayout>
+	</LinearLayout>		
+		
+</LinearLayout>

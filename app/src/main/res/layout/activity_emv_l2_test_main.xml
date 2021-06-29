@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btnTrans"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+         android:onClick="onClickTrans"
+        android:text= "@string/title_trans" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:onClick="onClickReadCardNo"
+        android:text = "@string/title_read_cardno" />    
+                            
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:onClick="onClickExit"
+        android:text = "@string/title_exit" />
+    
+	<ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/TextViewStatus"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+	</ScrollView>    
+    
+
+</LinearLayout>
